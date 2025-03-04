@@ -46,13 +46,13 @@ sudo adduser yabadabadoo && sudo usermod -aG sudo yabadabadoo && groups yabadaba
   ```
 12. membuat folder, dan set owner dan permission
   ```
-sudo mkdir fufufafa && sudo chown yabadabadoo:root && sudo chmod 770 fufufafa && su <other_user> && cd fufufafa
+sudo mkdir fufufafa && sudo chown yabadabadoo:root fufufafa && sudo chmod 770 fufufafa && su <other_user> && cd fufufafa
   ```
 13. Filtering flag di seluruh directory /var/tmp/pls_solve_this_puzzle/
   ```
 grep -h -rne 0000 /var/tmp/pls_solve_this_puzzle/ | sed 's/9:000000[0-9][0-9]://g' | sed 's/0000//g' |tr -s '[:space:]'| awk '!seen[$0]++'| tr -d '[:space:]' | xxd -r -p > flag2.txt
   ```
-14. Menyalin flag kedua dari artists_who_can_sing ke fufufafa dan menghapus folder pls_solve_this_puzzle
+14. Menyalin flag kedua dari artists_who_can_sing ke fufufafa 
   ```
 sudo cp flag2.txt fufufafa/
   ```
