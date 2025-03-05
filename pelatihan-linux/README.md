@@ -50,7 +50,7 @@ sudo mkdir fufufafa && sudo chown yabadabadoo:root fufufafa && sudo chmod 770 fu
   ```
 13. Filtering flag di seluruh directory /var/tmp/pls_solve_this_puzzle/
   ```
-grep -h -rne 0000 /var/tmp/pls_solve_this_puzzle/ | sed 's/[0-9]:000000[0-9][0-9]://g' | sed 's/ 0000//g'|tr -d " \n" | xxd -r -p > flag2.txt
+grep -h -re 0000 /var/tmp/pls_solve_this_puzzle/ | sed 's/000000[0-9][0-9]://g' | sed 's/ 0000//g'|tr -d " \n" | xxd -r -p > flag2.txt
   ```
 14. Menyalin flag kedua dari artists_who_can_sing ke fufufafa 
   ```
