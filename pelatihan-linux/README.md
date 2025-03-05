@@ -18,7 +18,7 @@ cd singing_tutorials/ && ls -la
   ```
 5. Filtering file dan append ke flag.txt di folder sebelumnya
   ```
-find .*opera*NBAYoungboy* -exec grep -h 'FLAG{[^}]*}' {} + > ../flag.txt
+find .*opera*NBAYoungboy* -exec grep -h 'FLAG{.*}' {} + > ../flag.txt
   ```
 6. Mundur direktori sebelumnya dan download binary dari link yang ada di flag sebelumnya
   ```
