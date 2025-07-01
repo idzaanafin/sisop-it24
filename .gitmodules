@@ -1,0 +1,15 @@
+[submodule "Sisop-5-2025-IT01"]
+	path = Sisop-5-2025-IT01
+	url = git@github.com:idzaanafin/Sisop-5-2025-IT01.git
+[submodule "Sisop-4-2025-IT01"]
+	path = Sisop-4-2025-IT01
+	url = git@github.com:idzaanafin/Sisop-4-2025-IT01.git
+[submodule "Sisop-3-2025-IT01"]
+	path = Sisop-3-2025-IT01
+	url = git@github.com:idzaanafin/Sisop-3-2025-IT01.git
+[submodule "Sisop-2-2025-IT01"]
+	path = Sisop-2-2025-IT01
+	url = git@github.com:idzaanafin/Sisop-2-2025-IT01.git
+[submodule "Sisop-1-2025-IT01"]
+	path = Sisop-1-2025-IT01
+	url = git@github.com:idzaanafin/Sisop-1-2025-IT01.git
