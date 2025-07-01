@@ -1,1 +1,2 @@
-# praktikum Ahmad Idza Anafin / 5027241017
+# Sistem Operasi - praktikum 
+Ahmad Idza Anafin / 5027241017
